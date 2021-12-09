@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(/pexels-rostislav-uzunov-5011647.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.container {
+    display: flex;
+    width: 24%;
+    height: 550px;
+    margin: 180px auto;
+    flex-direction: column;
+    background-color: rgba(220,220,220,0.2);
+    border-radius: 22px;
+    box-shadow: 9px 9px 9px 9px #000000;
+}
+
+.container > .form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 40px auto;
+}
+
+.container > .form > input {
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: rgba(220,220,220,0.7);
+    margin: 12px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+::placeholder{
+    font-size: 1.1em;
+    color: #ffffff;
+}
+.container > .form > span > input[type=checkbox] {
+    margin-right: 8px;
+}
+
+.container > .form > span {
+    font-size: 1.2em;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#btn {
+    width: 22%;
+    height: 54px;
+    border-radius: 12px;
+    margin: 100px auto;
+    margin-top: 70px;
+    border: none;
+    background-color: rgba(125,125,125,0.8);
+}
+
+#btn:hover {
+    background-color: rgba(125,125,125,0.1);
+    color: #ffffff;
+}
+
+.container > .links {
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    text-align: center;
+    margin-bottom: -50px;
+    margin-top: -8px;
+}
+
+.container > .links:hover {
+    font-size: 1.6em;
+}
